@@ -1,4 +1,4 @@
-@extends('layouts.frame') @section('page_title', 'Ordermonitor') @section('top_title', 'ordermonitor')
+@extends('layouts.frame') @section('page_title', 'Job Detail') @section('top_title', 'Job Detail')
 
 <!-- section header -->
 @section('header') @include('layouts.header') @endsection

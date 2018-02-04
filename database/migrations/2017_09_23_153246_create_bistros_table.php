@@ -15,9 +15,9 @@ class CreateBistrosTable extends Migration
     {
         Schema::create('bistros', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('bistro_name');
-            $table->integer('bistro_created_by');
-            $table->integer('bistro_updated_by');
+            $table->string('bistro_name',245);
+            $table->Integer('bistro_created_by');
+            $table->Integer('bistro_updated_by');
             $table->timestamps();
         });
     }
