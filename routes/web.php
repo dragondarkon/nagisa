@@ -14,5 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
-
+Route::get('/registershop', 'BistroController@create')->name('registershop');
 Route::get('/ordermonitor', 'OrderMonitorController@index')->name('ordermonitor');
+

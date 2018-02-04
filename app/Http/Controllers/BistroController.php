@@ -24,7 +24,7 @@ class BistroController extends Controller
      */
     public function create()
     {
-        //
+        return view('registerbistro.add');    
     }
 
     /**
